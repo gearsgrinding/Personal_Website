@@ -4,10 +4,11 @@ html{
 
 body{
     margin: 0px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .center-wrapper{
+	
 	margin: 0px auto;
 	width: 80%;
 	max-width: 1000px;
@@ -18,8 +19,9 @@ body{
 	top: 0px;;
 	width: 100%;
 	height: 80px;
-	background-color: #494949;
+	background-color: #FDF3E7;
 	z-index: 10;
+    color:black;
 }
 
 .header-button{
@@ -27,10 +29,21 @@ body{
 	float: left;
 	font-weight: 100;
 	font-size: 30px;
-	color: #e6e6e6;
+	color: black;
 	padding-top: 20px;
 	width: 20%;
 }
+
+.header-button-name{
+ height: 100%;
+	float: left;
+	font-weight: 100;
+	font-size: 30px;
+	color: black;
+	padding-top: 20px;
+	width: 30%; 
+}
+
 
 .button-wrapper{
 	width: 1000px;;
@@ -63,14 +76,16 @@ body{
 	height: inherit;
 }
 
-.i-description{
-	width: calc(90% - 640px);
+.big-letters{
+	width: calc(85% - 640px);
 	position: absolute;
-	left: 10%;
+	left: 15%;
 	height: 400px;;
 	z-index: 5;
 	top: 200px;
-	max-width: 500px;
+    font-size: 40px;
+    font-weight: 300;
+	max-width: 350px;
 }
 
 .i-d-head{
